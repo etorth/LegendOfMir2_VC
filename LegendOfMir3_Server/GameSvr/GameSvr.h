@@ -58,6 +58,7 @@ public:
 
 	void	SendGateCheck();
 	void	OpenNewUser(char *pszPacket);
+	void	CloseOpenedUser(WORD wUserListIndex, WORD wUserGateIndex, int nSocket);
 
 	void	xSend();
 	int		Send(_LPTSENDBUFF lpSendBuff);

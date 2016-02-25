@@ -175,6 +175,8 @@ DWORD WINAPI ServerWorkerThread(LPVOID CompletionPortID)
 							g_xLoginOutUserInfo.AddNewNode(pUserInfo);
 						}
 
+						pGateInfo->CloseOpenedUser(pMsgHeader->wUserListIndex, pMsgHeader->wUserGateIndex, pMsgHeader->nSocket);
+
 						break;
 					}
 					case GM_CHECKCLIENT:

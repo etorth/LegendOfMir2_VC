@@ -104,6 +104,26 @@ void CGateInfo::OpenNewUser(char *pszPacket)
 	}
 }
 
+void CGateInfo::CloseOpenedUser(WORD wUserListIndex, WORD wUserGateIndex, int nSocket)
+{
+	_TMSGHEADER			MsgHdr;
+
+	_LPTSENDBUFF lpSendBuff = new _TSENDBUFF;
+
+	MsgHdr.nCode			= 0xAA55AA55;
+	MsgHdr.nSocket			= nSocket;
+	MsgHdr.wUserGateIndex	= wUserGateIndex;
+	MsgHdr.wIdent			= GM_CLOSE;
+	MsgHdr.wUserListIndex	= wUserListIndex;
+	MsgHdr.wTemp			= 0;
+	MsgHdr.nLength			= 0;
+
+	lpSendBuff->nLen		= sizeof(_TMSGHEADER);
+	memmove(lpSendBuff->szData, (char *)&MsgHdr, sizeof(_TMSGHEADER));
+
+	m_xSendBuffQ.PushQ((BYTE *)lpSendBuff);
+}
+
 void CGateInfo::xSend()
 {
 	if (m_xSendBuffQ.GetCount())
