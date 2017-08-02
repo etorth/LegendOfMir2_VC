@@ -39,8 +39,8 @@
 /******************************************************************************************************************
 	#1. User Define Message
 *******************************************************************************************************************/
-#define _WM_USER_MSG_INPUTTED		WM_USER + 1005				// ¿¡µðÆ®¹Ú½º ÀÔ·Â¸Þ½ÃÁö. ¸Þ½ÃÁö°¡ Ä¿¸ÇµåÀÏ°æ¿ì wParam°ªÀº TRUE·Î ¼¼ÆÃµÈ´Ù.
-#define ID_SOCKCLIENT_EVENT_MSG		WM_USER + 1000				// ¼ÒÄÏÀÌº¥Æ®¸Þ½ÃÁö.
+#define _WM_USER_MSG_INPUTTED		WM_USER + 1005				// ä¿Šå¼é£˜å† èƒ¶ æ¶ä»¿çš‹çŸ«ç˜¤. çš‹çŸ«ç˜¤å•Š ç›®ç›–é›è€ç‰ˆå¿« wParamè”¼ç¯® TRUEè‚º æŠ€æ³¼ç­‰ä¿ƒ.
+#define ID_SOCKCLIENT_EVENT_MSG		WM_USER + 1000				// å®¶å—æžäº¥é£˜çš‹çŸ«ç˜¤.
 
 
 
@@ -135,29 +135,29 @@
 #define _INVENTORY_CELL_WIDTH		38
 #define _INVENTORY_CELL_HEIGHT		38
 
-#define _CHAT_COLOR1				0	//RGB(  0,   0,   0); // Åõ°ú»ö.
-#define _CHAT_COLOR2				1	//RGB( 10,  10,  10); // °ËÁ¤»ö.
-#define _CHAT_COLOR3				2	//RGB(255, 255, 255); // Èò»ö.
-#define _CHAT_COLOR4				3	//RGB(255,   0,   0); // »¡°­.
-#define _CHAT_COLOR5				4	//RGB(  0, 255,   0); // ³ì»ö.
-#define _CHAT_COLOR6				5	//RGB(  0,   0, 255); // Çª¸¥»ö
-#define _CHAT_COLOR7				6	//RGB(255, 255,   0); // ³ë¶û»ö.
-#define _CHAT_COLOR8				7	//RGB(255, 128,   0); // ÁÖÈ²»ö
+#define _CHAT_COLOR1				0	//RGB(  0,   0,   0); // æ§è‹žç¥¸.
+#define _CHAT_COLOR2				1	//RGB( 10,  10,  10); // å…«æ²¥ç¥¸.
+#define _CHAT_COLOR3				2	//RGB(255, 255, 255); // é—°ç¥¸.
+#define _CHAT_COLOR4				3	//RGB(255,   0,   0); // å¼§ç¢.
+#define _CHAT_COLOR5				4	//RGB(  0, 255,   0); // è¸Œç¥¸.
+#define _CHAT_COLOR6				5	//RGB(  0,   0, 255); // ä»Ÿå¼—ç¥¸
+#define _CHAT_COLOR7				6	//RGB(255, 255,   0); // ç•´å°”ç¥¸.
+#define _CHAT_COLOR8				7	//RGB(255, 128,   0); // æž—ç‚”ç¥¸
 
-#define _USER_NAMECLR1				255	//RGB(255, 255, 255); Èò»ö
-#define _USER_NAMECLR2				251	//RGB(255, 255,   0); ³ë¶õ»ö
-#define _USER_NAMECLR3				249	//RGB(255,   0,   0); »¡°£»ö
-#define _USER_NAMECLR4				125	//RGB(255,   0,   0); ??»ö(°á°è¾È ¸ó½ºÅÍ»ö)
-#define _USER_NAMECLR5				47	//RGB(165,  99,  57); °¥»ö
-#define _USER_NAMECLR6				180	//RGB(  0,   0, 255); Çª¸¥»ö
-#define _USER_NAMECLR7				69	//RGB(239, 107,   0); ÁÖÈ²»ö
-#define _USER_NAMECLR8				221	//RGB(  0, 148,   0); ³ì»ö
-#define _USER_NAMECLR9				254	//RGB(  0, 255, 255); »ö
-#define _USER_NAMECLR10				147	//RGB(140, 214, 239); »ö
-#define _USER_NAMECLR11				154	//RGB( 57, 181, 239); »ö
-#define _USER_NAMECLR12				229	//RGB(119, 136, 255); »ö
-#define _USER_NAMECLR13				168	//RGB(  0, 123, 222); »ö
-#define _USER_NAMECLR14				252	//RGB(  0,   0, 255); »ö
+#define _USER_NAMECLR1				255	//RGB(255, 255, 255); é—°ç¥¸
+#define _USER_NAMECLR2				251	//RGB(255, 255,   0); ç•´é„‚ç¥¸
+#define _USER_NAMECLR3				249	//RGB(255,   0,   0); å¼§åŸƒç¥¸
+#define _USER_NAMECLR4				125	//RGB(255,   0,   0); ??ç¥¸(æ¬æ‹Œæ•‘ é˜èƒ¶ç£ç¥¸)
+#define _USER_NAMECLR5				47	//RGB(165,  99,  57); å“Žç¥¸
+#define _USER_NAMECLR6				180	//RGB(  0,   0, 255); ä»Ÿå¼—ç¥¸
+#define _USER_NAMECLR7				69	//RGB(239, 107,   0); æž—ç‚”ç¥¸
+#define _USER_NAMECLR8				221	//RGB(  0, 148,   0); è¸Œç¥¸
+#define _USER_NAMECLR9				254	//RGB(  0, 255, 255); ç¥¸
+#define _USER_NAMECLR10				147	//RGB(140, 214, 239); ç¥¸
+#define _USER_NAMECLR11				154	//RGB( 57, 181, 239); ç¥¸
+#define _USER_NAMECLR12				229	//RGB(119, 136, 255); ç¥¸
+#define _USER_NAMECLR13				168	//RGB(  0, 123, 222); ç¥¸
+#define _USER_NAMECLR14				252	//RGB(  0,   0, 255); ç¥¸
 
 
 
@@ -251,106 +251,106 @@
 /******************************************************************************************************************
 	#1. Sprite Define
 *******************************************************************************************************************/
-// HeroÀÇ µ¿ÀÛ Á¤ÀÇ.(°ÔÀÓ³»ÀÇ ¸ðµç µ¿ÀÛÀ» Á¤ÀÇÇÑ´Ù.)
+// Heroç‹¼ æ‚¼ç´¯ æ²¥ç‹¼.(éœ¸çƒ™éƒ´ç‹¼ è‘›ç”µ æ‚¼ç´¯é˜‘ æ²¥ç‹¼èŒ„ä¿ƒ.)
 
-#define _MAX_HERO_MTN				33			// ÃÖ´ë µ¿ÀÛ°¹¼ö.
-#define _MAX_HERO_FRAME				3000		// ´ÙÀ½ Hero·Î ³Ñ¾î°¡´Â ÃÖ´ë ÇÁ·¹ÀÓ °¹¼ö.
+#define _MAX_HERO_MTN				33			// å¼¥æŽª æ‚¼ç´¯è‚®è.
+#define _MAX_HERO_FRAME				3000		// ä¿ƒæ¾œ Heroè‚º é€žç»¢å•Šç»° å¼¥æŽª æ©‡é¥­çƒ™ è‚®è.
 #define	_MAX_HERO_REALFRAME			2640
 
-#define _MT_STAND					0			// À¯ÈÞµ¿ÀÛ.
-#define _MT_ARROWATTACK				1			// È°°ø°Ý.
-#define _MT_SPELL1					2			// ¸¶¹ý ½ÃÀü1.
-#define _MT_SPELL2					3			// ¸¶¹ý °ø°Ý ½ÃÀü2.
-#define _MT_HOLD					4			// °ßµð±â.
-#define _MT_PUSHBACK				5			// µÚ·Î ¹Ð·Á³ª±â.
-#define _MT_PUSHBACKFLY				6			// µÚ·Î ³¯¶ó¼­ ¹Ð·Á³ª±â.
-#define _MT_ATTACKMODE				7			// ÀüÅõ¸ðµå.
-#define _MT_CUT						8			// °í±â ½ä±â.
-#define _MT_ONEVSWING				9			// ÇÑ¼Õ Á¾º£±â.(µ¿ÀÛ 9¹øºÎÅÍ 14¹ø±îÁö¿¡¼­ ¹«±âÀÇ Á¾·ù¿¡ µû¶ó µ¿ÀÛÀÌ Á¤ÇØÁø´Ù.)
-#define _MT_TWOVSWING				10			// µÎ¼Õ Á¾º£±â.
-#define _MT_ONEHSWING				11			// ÇÑ¼Õ È¾º£±â.
-#define _MT_TWOHSWING				12			// µÎ¼Õ È¾º£±â.	
-#define _MT_SPEARVSWING				13			// Ã¢ Á¾º£±â.
-#define _MT_SPEARHSWING				14			// Ã¢ È¾º£±â.
-#define _MT_HITTED					15			// ¸Â±â.
-#define _MT_WHEELWIND				16			// µ¹¸é¼­ º£±â.
-#define _MT_RANDSWING				17			// ¸¶±¸ º£±â.
-#define _MT_BACKDROPKICK			18			// µÚµ¹¾Æ Â÷±â.
-#define _MT_DIE						19			// Á×±â.
-#define _MT_SPECIALDIE				20			// Æ¢¾î¿Ã¶ó Á×±â.
-#define _MT_WALK					21			// °È±â.
-#define _MT_RUN						22			// ´Þ¸®±â.
-#define _MT_MOODEPO					23			// ¹«ÅÂº¸ ¶Ù±â.
-#define _MT_ROLL					24			// ±¸¸£±â.
-#define _MT_FISHSTAND				25			// ³¬½Ã¸ðµå À¯ÈÞ.
-#define _MT_FISHHAND				26			// ³¬½Ã¸ðµå.
-#define _MT_FISHTHROW				27			// ³¬½ÃÁÙ ´øÁö±â.
-#define _MT_FISHPULL				28			// ³¬½ÃÁÙ ´ç±â±â.
-#define _MT_HORSESTAND				29			// ½Â¸¶¸ðµå À¯ÈÞ.
-#define _MT_HORSEWALK				30			// ½Â¸¶¸ðµå °È±â.
-#define _MT_HORSERUN				31			// ½Â¸¶¸ðµå ´Þ¸®±â.
-#define _MT_HORSEHIT				32			// ½Â¸¶¸ðµå ¸Â±â.
+#define _MT_STAND					0			// èœ¡ç»’æ‚¼ç´¯.
+#define _MT_ARROWATTACK				1			// åŠå‚æ‹œ.
+#define _MT_SPELL1					2			// ä»˜è¿‡ çŸ«å‚ˆ1.
+#define _MT_SPELL2					3			// ä»˜è¿‡ å‚æ‹œ çŸ«å‚ˆ2.
+#define _MT_HOLD					4			// æ–‘å¼æ‰.
+#define _MT_PUSHBACK				5			// ç¬¬è‚º å‰å¦¨å”±æ‰.
+#define _MT_PUSHBACKFLY				6			// ç¬¬è‚º æœæ‰¼è¾‘ å‰å¦¨å”±æ‰.
+#define _MT_ATTACKMODE				7			// å‚ˆæ§è‘›é›.
+#define _MT_CUT						8			// ç»Šæ‰ æˆ’æ‰.
+#define _MT_ONEVSWING				9			// èŒ„é¢Š è¾†æµ·æ‰.(æ‚¼ç´¯ 9é”…ä½•ç£ 14é”…é³–ç˜¤ä¿Šè¾‘ å…¬æ‰ç‹¼ è¾†å¹…ä¿Š è¶æ‰¼ æ‚¼ç´¯æž æ²¥ç§¦æŸ³ä¿ƒ.)
+#define _MT_TWOVSWING				10			// æ»´é¢Š è¾†æµ·æ‰.
+#define _MT_ONEHSWING				11			// èŒ„é¢Š æŸ“æµ·æ‰.
+#define _MT_TWOHSWING				12			// æ»´é¢Š æŸ“æµ·æ‰.	
+#define _MT_SPEARVSWING				13			// èŠ’ è¾†æµ·æ‰.
+#define _MT_SPEARHSWING				14			// èŠ’ æŸ“æµ·æ‰.
+#define _MT_HITTED					15			// å˜Žæ‰.
+#define _MT_WHEELWIND				16			// å€’æè¾‘ æµ·æ‰.
+#define _MT_RANDSWING				17			// ä»˜å¤‡ æµ·æ‰.
+#define _MT_BACKDROPKICK			18			// ç¬¬å€’é…’ çž’æ‰.
+#define _MT_DIE						19			// ç£·æ‰.
+#define _MT_SPECIALDIE				20			// è„¾ç»¢æ£µæ‰¼ ç£·æ‰.
+#define _MT_WALK					21			// å­æ‰.
+#define _MT_RUN						22			// å´”åºœæ‰.
+#define _MT_MOODEPO					23			// å…¬æ€•ç„Š é¡¿æ‰.
+#define _MT_ROLL					24			// å¤‡ç¦æ‰.
+#define _MT_FISHSTAND				25			// è¶…çŸ«è‘›é› èœ¡ç»’.
+#define _MT_FISHHAND				26			// è¶…çŸ«è‘›é›.
+#define _MT_FISHTHROW				27			// è¶…çŸ«ä¸´ å¸¦ç˜¤æ‰.
+#define _MT_FISHPULL				28			// è¶…çŸ«ä¸´ å¯¸æ‰æ‰.
+#define _MT_HORSESTAND				29			// é“°ä»˜è‘›é› èœ¡ç»’.
+#define _MT_HORSEWALK				30			// é“°ä»˜è‘›é› å­æ‰.
+#define _MT_HORSERUN				31			// é“°ä»˜è‘›é› å´”åºœæ‰.
+#define _MT_HORSEHIT				32			// é“°ä»˜è‘›é› å˜Žæ‰.
 
-// MonsterÀÇ µ¿ÀÛ Á¤ÀÇ.(°ÔÀÓ³»ÀÇ ¸ðµç µ¿ÀÛÀ» Á¤ÀÇÇÑ´Ù.)
-#define _MAX_MON_MTN				10			// ÃÖ´ë µ¿ÀÛ°¹¼ö.
-#define _MAX_MON_FRAME				1000		// ´ÙÀ½ Mon·Î ³Ñ¾î°¡´Â ÃÖ´ë ÇÁ·¹ÀÓ °¹¼ö.
+// Monsterç‹¼ æ‚¼ç´¯ æ²¥ç‹¼.(éœ¸çƒ™éƒ´ç‹¼ è‘›ç”µ æ‚¼ç´¯é˜‘ æ²¥ç‹¼èŒ„ä¿ƒ.)
+#define _MAX_MON_MTN				10			// å¼¥æŽª æ‚¼ç´¯è‚®è.
+#define _MAX_MON_FRAME				1000		// ä¿ƒæ¾œ Monè‚º é€žç»¢å•Šç»° å¼¥æŽª æ©‡é¥­çƒ™ è‚®è.
 
-#define _MT_MON_STAND				0			// À¯ÈÞµ¿ÀÛ.
-#define _MT_MON_WALK				1			// °È±âµ¿ÀÛ.
-#define _MT_MON_ATTACK_A			2			// ÀÏ¹Ý°ø°Ýµ¿ÀÛ1.
-#define _MT_MON_HITTED				3			// ¸Â±âµ¿ÀÛ.
-#define _MT_MON_DIE					4			// Á×±âµ¿ÀÛ.
-#define _MT_MON_ATTACK_B			5			// ÀÏ¹Ý°ø°Ýµ¿ÀÛ2.
-#define _MT_MON_SPELL_A				6			// ¸¶¹ý°ø°Ýµ¿ÀÛ1.
-#define _MT_MON_SPELL_B				7			// ¸¶¹ý°ø°Ýµ¿ÀÛ2.
-#define _MT_MON_APPEAR				8			// ³ªÅ¸³ª±âµ¿ÀÛ.
-#define _MT_MON_SPECIAL_MTN			9			// Æ¯¼öµ¿ÀÛ1.
-
-
-// NPCÀÇ µ¿ÀÛ Á¤ÀÇ.(°ÔÀÓ³»ÀÇ ¸ðµç µ¿ÀÛÀ» Á¤ÀÇÇÑ´Ù.)
-// NPC °ü·ÃÁ¤ÀÇ.
-#define _MAX_NPC_MTN				3			// ÃÖ´ë µ¿ÀÛ°¹¼ö.
-#define _MAX_NPC_FRAME				100			// ´ÙÀ½ NPC·Î ³Ñ¾î°¡´Â ÃÖ´ë ÇÁ·¹ÀÓ °¹¼ö.
-
-#define _MT_NPC_STAND				0			// À¯ÈÞµ¿ÀÛ.
-#define _MT_NPC_ACT01				1			// Æ¯¼öµ¿ÀÛ1.
-#define _MT_NPC_ACT02				2			// Æ¯¼öµ¿ÀÛ2.
-
-// ±âµµ.							0			
-// ¹«±â´ëÀåÀåÀÌ.					1			
-// ¹æ¾î±¸´ëÀåÀåÀÌ.					2			
-// ¿©°üÁ¾¾÷¿ø.						3			
-// Ä«¿îÅÍ.							4			
-// °æ¸Å¾È³»ÀÚ.						5			
-// °í±Þ»ç¼­.						6			
-// µµ¼­°ü°æºñ.						7			
-// »ç¼­.							8			
-// Á¢¼öÃ³.							9			
-// ¾àÃÊÇÒ¾Æ¹öÁö.					10			
-// ÀÇ·ù»ó.							11			
-// ÁÖÁ¡NPC.							12			
-// »ç¸·Àü»ç.						13			
-// ´ëÀå°£Á¾¾÷¿ø.					14			
-// µµ¹ÚÀåÃ¥ÀÓÀÚ.					15			
-// ¿¾³¯´ëÀåÀåÀÌ.					16			
-// ¿¾³¯¾à¹æ³ëÀÎ.					17			
-// ¿¾³¯Ã¥¹æ³ëÀÎ.					18			
-// Àâ»óÀÎ.							19			
-// ÀâÈ­»ó.							20			
-// ÀâÈ­»ó.							21			
-// ÀâÈ­»ó.							22			
-// Á¡ÀïÀÌ.							23			
-// Æ÷¸ñ»ó.							24			
-// ¿©°ü¾ÆÁÜ¸¶.						25
-// À½½ÄÁ¡ÇÒ¹è.						26
-// Á¤À°Á¡ÁÖÀÎ.						27			
-// ÇàÁ¤°ü.							28			
+#define _MT_MON_STAND				0			// èœ¡ç»’æ‚¼ç´¯.
+#define _MT_MON_WALK				1			// å­æ‰æ‚¼ç´¯.
+#define _MT_MON_ATTACK_A			2			// è€é¦†å‚æ‹œæ‚¼ç´¯1.
+#define _MT_MON_HITTED				3			// å˜Žæ‰æ‚¼ç´¯.
+#define _MT_MON_DIE					4			// ç£·æ‰æ‚¼ç´¯.
+#define _MT_MON_ATTACK_B			5			// è€é¦†å‚æ‹œæ‚¼ç´¯2.
+#define _MT_MON_SPELL_A				6			// ä»˜è¿‡å‚æ‹œæ‚¼ç´¯1.
+#define _MT_MON_SPELL_B				7			// ä»˜è¿‡å‚æ‹œæ‚¼ç´¯2.
+#define _MT_MON_APPEAR				8			// å”±é¸¥å”±æ‰æ‚¼ç´¯.
+#define _MT_MON_SPECIAL_MTN			9			// æ¼‚èæ‚¼ç´¯1.
 
 
+// NPCç‹¼ æ‚¼ç´¯ æ²¥ç‹¼.(éœ¸çƒ™éƒ´ç‹¼ è‘›ç”µ æ‚¼ç´¯é˜‘ æ²¥ç‹¼èŒ„ä¿ƒ.)
+// NPC åŒ…è®¿æ²¥ç‹¼.
+#define _MAX_NPC_MTN				3			// å¼¥æŽª æ‚¼ç´¯è‚®è.
+#define _MAX_NPC_FRAME				100			// ä¿ƒæ¾œ NPCè‚º é€žç»¢å•Šç»° å¼¥æŽª æ©‡é¥­çƒ™ è‚®è.
+
+#define _MT_NPC_STAND				0			// èœ¡ç»’æ‚¼ç´¯.
+#define _MT_NPC_ACT01				1			// æ¼‚èæ‚¼ç´¯1.
+#define _MT_NPC_ACT02				2			// æ¼‚èæ‚¼ç´¯2.
+
+// æ‰æ¡£.							0			
+// å…¬æ‰æŽªåŽ˜åŽ˜æž.					1			
+// è§„ç»¢å¤‡æŽªåŽ˜åŽ˜æž.					2			
+// å’¯åŒ…è¾†è¯€ç›”.						3			
+// å¢¨æ¬¾ç£.							4			
+// ç‰ˆæ¦‚æ•‘éƒ´ç£Š.						5			
+// ç»Šéž­è¤è¾‘.						6			
+// æ¡£è¾‘åŒ…ç‰ˆåŽš.						7			
+// è¤è¾‘.							8			
+// ç«‹èè´¸.							9			
+// è·æª¬ä¸”é…’æ»šç˜¤.					10			
+// ç‹¼å¹…æƒ‘.							11			
+// æž—ç—¢NPC.							12			
+// è¤é˜œå‚ˆè¤.						13			
+// æŽªåŽ˜åŸƒè¾†è¯€ç›”.					14			
+// æ¡£å† åŽ˜æ°“çƒ™ç£Š.					15			
+// çƒ¤æœæŽªåŽ˜åŽ˜æž.					16			
+// çƒ¤æœè·è§„ç•´ç‰¢.					17			
+// çƒ¤æœæ°“è§„ç•´ç‰¢.					18			
+// æ£±æƒ‘ç‰¢.							19			
+// æ£±æ‹³æƒ‘.							20			
+// æ£±æ‹³æƒ‘.							21			
+// æ£±æ‹³æƒ‘.							22			
+// ç—¢é‡Œæž.							23			
+// å™¨æ ¼æƒ‘.							24			
+// å’¯åŒ…é…’æ·‹ä»˜.						25
+// æ¾œä¾¥ç—¢ä¸”ç¡….						26
+// æ²¥è…Šç—¢æž—ç‰¢.						27			
+// é’æ²¥åŒ….							28			
 
 
 
-// ¸¶¹ýÈ¿°ú°ü·ÃÁ¤ÀÇ.
+
+
+// ä»˜è¿‡ç“¤è‹žåŒ…è®¿æ²¥ç‹¼.
 #define _MAX_EFFECT					33
 #define _MAX_MAGIC					52
 #define _MAX_EXPLOSION				8
@@ -389,25 +389,25 @@
 #define _CLIP_HEIGHT				492
 #define _TIMER_ID					1
 
-#define _ET_DIGOUTZOMBI				1  //Á»ºñ°¡ ¶¥ÆÄ°í ³ª¿Â ÈçÀû
-#define _ET_MINE					2  //±¤¼®ÀÌ ¸ÅÀåµÇ¾î ÀÖÀ½
-#define _ET_PILESTONES				3  //µ¹¹«´õ±â
-#define _ET_HOLYCURTAIN				4  //°á°è
+#define _ET_DIGOUTZOMBI				1  //ç²±åŽšå•Š é¡¶é¢‡ç»Š å”±æŸ¯ å¦‚åˆ©
+#define _ET_MINE					2  //å ¡ç±æž æ¦‚åŽ˜ç™»ç»¢ ä¹æ¾œ
+#define _ET_PILESTONES				3  //å€’å…¬æ­¹æ‰
+#define _ET_HOLYCURTAIN				4  //æ¬æ‹Œ
 #define _ET_FIRE					5
-#define _ET_SCULPEICE				6  //ÁÖ¸¶¿ÕÀÇ µ¹±úÁø Á¶°¢
+#define _ET_SCULPEICE				6  //æž—ä»˜ç©ºç‹¼ å€’æŸ„æŸ³ ç‚¼é˜¿
 
 #define _MAX_CELL_OBJ				10
 
 // Day Bright.
-#define _DAYSTATE_DUSK				0  // »õº®.
-#define _DAYSTATE_DAY				1  // ³·.
-#define _DAYSTATE_DAWN				2  // Àú³á.
-#define _DAYSTATE_NIGHT				3  // ¹ã.
+#define _DAYSTATE_DUSK				0  // è´§å¯’.
+#define _DAYSTATE_DAY				1  // æ’¤.
+#define _DAYSTATE_DAWN				2  // åŽ†ç¿….
+#define _DAYSTATE_NIGHT				3  // å¹¿.
 
 // Fog Bright.
-#define _FOGSTATE_DAY				0  // ³·.
-#define _FOGSTATE_NIGHT				1  // ¹ã.
-#define _FOGSTATE_DAWN				2  // »õº®, Àú³á.
+#define _FOGSTATE_DAY				0  // æ’¤.
+#define _FOGSTATE_NIGHT				1  // å¹¿.
+#define _FOGSTATE_DAWN				2  // è´§å¯’, åŽ†ç¿….
 
 
 
@@ -416,28 +416,28 @@
 /******************************************************************************************************************
 	#1. Interface
 *******************************************************************************************************************/
-#define _CHAT_COLOR1				0	//RGB(  0,   0,   0); // Åõ°ú»ö.
-#define _CHAT_COLOR2				1	//RGB( 10,  10,  10); // °ËÁ¤»ö.
-#define _CHAT_COLOR3				2	//RGB(255, 255, 255); // Èò»ö.
-#define _CHAT_COLOR4				3	//RGB(255,   0,   0); // »¡°­.
-#define _CHAT_COLOR5				4	//RGB(  0, 255,   0); // ³ì»ö.
-#define _CHAT_COLOR6				5	//RGB(  0,   0, 255); // Çª¸¥»ö
-#define _CHAT_COLOR7				6	//RGB(255, 255,   0); // ³ë¶û»ö.
-#define _CHAT_COLOR8				7	//RGB(255, 128,   0); // ÁÖÈ²»ö
+#define _CHAT_COLOR1				0	//RGB(  0,   0,   0); // æ§è‹žç¥¸.
+#define _CHAT_COLOR2				1	//RGB( 10,  10,  10); // å…«æ²¥ç¥¸.
+#define _CHAT_COLOR3				2	//RGB(255, 255, 255); // é—°ç¥¸.
+#define _CHAT_COLOR4				3	//RGB(255,   0,   0); // å¼§ç¢.
+#define _CHAT_COLOR5				4	//RGB(  0, 255,   0); // è¸Œç¥¸.
+#define _CHAT_COLOR6				5	//RGB(  0,   0, 255); // ä»Ÿå¼—ç¥¸
+#define _CHAT_COLOR7				6	//RGB(255, 255,   0); // ç•´å°”ç¥¸.
+#define _CHAT_COLOR8				7	//RGB(255, 128,   0); // æž—ç‚”ç¥¸
 
 #define _INPUT_EDITWND_XPOS			223
 #define _INPUT_EDITWND_YPOS			549
 #define _INPUT_EDITWND_WIDTH		353
 #define _INPUT_EDITWND_HEIGHT		15
 
-// ¸ÞÀÎÀÎÅÍÆäÀÌ½º¿¡¼­ ¾²ÀÏ À©µµ¿ì ¾ÆÀÌµð.
-#define _WND_ID_INVENTORY			0			//°¡¹æÀ©µµ¿ì.
-#define _WND_ID_STATUS				1			//Ä³¸¯ÅÍ Á¤º¸ º¸±âÀ©µµ¿ì(3°³).
-#define _WND_ID_STORE				2			//»óÁ¡À©µµ¿ì.
-#define _WND_ID_EXCHANGE			3			//±³È¯À©µµ¿ì.
-#define _WND_ID_GUILD				4			//¹®¿øÀ©µµ¿ì.
-#define _WND_ID_GUILDMASTER			5			//¹®ÁÖÀ©µµ¿ì.
-#define _WND_ID_GROUP				6			//±×·ìÀ©µµ¿ì.
+// çš‹ç‰¢ç‰¢ç£å…¶æžèƒ¶ä¿Šè¾‘ é™è€ æ‰©æ¡£å¿« é…’æžå¼.
+#define _WND_ID_INVENTORY			0			//å•Šè§„æ‰©æ¡£å¿«.
+#define _WND_ID_STATUS				1			//æŸè…ç£ æ²¥ç„Š ç„Šæ‰æ‰©æ¡£å¿«(3ä¿º).
+#define _WND_ID_STORE				2			//æƒ‘ç—¢æ‰©æ¡£å¿«.
+#define _WND_ID_EXCHANGE			3			//èƒŒåˆ¸æ‰©æ¡£å¿«.
+#define _WND_ID_GUILD				4			//å·©ç›”æ‰©æ¡£å¿«.
+#define _WND_ID_GUILDMASTER			5			//å·©æž—æ‰©æ¡£å¿«.
+#define _WND_ID_GROUP				6			//å¼Šç¼æ‰©æ¡£å¿«.
 #define _WND_ID_GROUPPOP			7			//
 #define _WND_ID_CHATPOP				8			//
 #define _WND_ID_NPCCHAT				9		
@@ -446,31 +446,31 @@
 #define _WND_ID_OPTION				12			// 
 #define _WND_ID_HORSE				13			// 
 
-// ¸ÞÀÎ ÀÎÅÍÆäÀÌ½º¿¡¼­ ¾²ÀÏ À©µµ¿ìÀÇ ÀÌ¹ÌÁö ÀÎµ¦½º.
-#define _WNDIMGIDX_MAIN				50			//¸ÞÀÎÀÎÅÍÆäÀÌ½ºÃ¤ÆÃÃ¢
-#define _WNDIMGIDX_INVENTORY	    250			//ÀÎº¥Åä¸®
+// çš‹ç‰¢ ç‰¢ç£å…¶æžèƒ¶ä¿Šè¾‘ é™è€ æ‰©æ¡£å¿«ç‹¼ æžå›ºç˜¤ ç‰¢éƒ¸èƒ¶.
+#define _WNDIMGIDX_MAIN				50			//çš‹ç‰¢ç‰¢ç£å…¶æžèƒ¶ç›²æ³¼èŠ’
+#define _WNDIMGIDX_INVENTORY	    250			//ç‰¢äº¥é…åºœ
 #define _WNDIMGIDX_ITEMSET		    200			//
-#define _WNDIMGIDX_SKILLSET			202			//¹«°ø¼³Á¤Ã¢
+#define _WNDIMGIDX_SKILLSET			202			//å…¬å‚æ±²æ²¥èŠ’
 #define _WNDIMGIDX_STATUS			201			//
 #define _WNDIMGIDX_CHARINFO			201			//
-#define _WNDIMGIDX_STORE			253			//»óÁ¡¹°°Ç»ç±â
-#define _WNDIMGIDX_EXCHANGE			251			//±³È¯Ã¢
-#define _WNDIMGIDX_GUILDMASTER		600			//¹®ÁÖ°Ô½ÃÆÇ.
-#define _WNDIMGIDX_GUILD			169			//¹®¿ø°Ô½ÃÆÇ.
-#define _WNDIMGIDX_GROUP			900			//±×·ìÃ¢.
-#define _WNDIMGIDX_GROUPPOP			145			//±×·ìÀÔ·ÂÃ¢.
-#define _WNDIMGIDX_CHATPOP			350			//Ã¤ÆÃÆË¾÷Ã¢.
+#define _WNDIMGIDX_STORE			253			//æƒ‘ç—¢æ‹±æ‰’è¤æ‰
+#define _WNDIMGIDX_EXCHANGE			251			//èƒŒåˆ¸èŠ’
+#define _WNDIMGIDX_GUILDMASTER		600			//å·©æž—éœ¸çŸ«é­„.
+#define _WNDIMGIDX_GUILD			169			//å·©ç›”éœ¸çŸ«é­„.
+#define _WNDIMGIDX_GROUP			900			//å¼Šç¼èŠ’.
+#define _WNDIMGIDX_GROUPPOP			145			//å¼Šç¼æ¶ä»¿èŠ’.
+#define _WNDIMGIDX_CHATPOP			350			//ç›²æ³¼æ‰‘è¯€èŠ’.
 #define _WNDIMGINDX_MSGBOX1			254
 #define _WNDIMGINDX_MSGBOX2			255
-#define _WNDIMGIDX_NPCCHAT			300			//NPC´ëÈ­Ã¢
-#define _WNDIMGIDX_QUEST			700			//Äù½ºÆ®Ã¢.
-#define _WNDIMGIDX_OPTION			750			//¿É¼ÇÃ¢.
-#define _WNDIMGIDX_HORSE			850			//¸»Ã¢.
-#define _IDX_IMG_NOTICEBOX			0			//°øÁöÃ¢ ÀÎµ¦½º
+#define _WNDIMGIDX_NPCCHAT			300			//NPCæŽªæ‹³èŠ’
+#define _WNDIMGIDX_QUEST			700			//æ¶…èƒ¶é£˜èŠ’.
+#define _WNDIMGIDX_OPTION			750			//å¯è®°èŠ’.
+#define _WNDIMGIDX_HORSE			850			//å¯ŒèŠ’.
+#define _IDX_IMG_NOTICEBOX			0			//å‚ç˜¤èŠ’ ç‰¢éƒ¸èƒ¶
 
 #define _IMGIDX_BELT				51
 
-// ¸ÞÀÎÀÎÅÍÆäÀÌ½º¿¡¼­ ¾²ÀÏ ¹öÆ° ¾ÆÀÌµð.
+// çš‹ç‰¢ç‰¢ç£å…¶æžèƒ¶ä¿Šè¾‘ é™è€ æ»šç“¢ é…’æžå¼.
 #define _BTN_ID_CHANGE				0
 #define _BTN_ID_MINIMAP				1
 #define _BTN_ID_MUGONG				2
@@ -553,65 +553,65 @@
 /******************************************************************************************************************
 	#1. Magic
 *******************************************************************************************************************/
-#define _MAGIC_ACTIVE				0			// ¸¶¹ýÈ°¼º»óÅÂ.
-#define _LIGHT_ACTIVE				1			// ¸¶¹ý±¤¿øÈ°¼º»óÅÂ.
-#define _MAGIC_FINISH				2			// ¸¶¹ý¼Ò¸ê.
+#define _MAGIC_ACTIVE				0			// ä»˜è¿‡åŠå·±æƒ‘æ€•.
+#define _LIGHT_ACTIVE				1			// ä»˜è¿‡å ¡ç›”åŠå·±æƒ‘æ€•.
+#define _MAGIC_FINISH				2			// ä»˜è¿‡å®¶æˆˆ.
 
-#define _SKILL_FIREBALL				1			// È­¿°Àå.          // »ðÇòÊõ
-#define _SKILL_HEALLING				2			// È¸º¹¼ú.          // ÖÎÓúÊõ
-#define _SKILL_ONESWORD				3			// ¿Ü¼ö.            // »ù±¾½£Êõ
-#define _SKILL_ILKWANG				4			// ÀÏ±¤.            // ¾«ÉñÁ¦Õ½·¨
-#define _SKILL_FIREBALL2			5			// ±Ý°­È­¿°Àå.      // ´ó»ðÇò
-#define _SKILL_AMYOUNSUL			6			// ¾Ï¿¬¼ú.          // Ê©¶¾Êõ
-#define _SKILL_YEDO					7			// ¿¹µµ.            // ¹¥É±½£Êõ
-#define _SKILL_FIREWIND				8			// È­¿°Ç³.          // ¿¹¾Ü»ð»·
-#define _SKILL_FIRE					9			// ¿°»çÀå.          // µØÓü»ð
-#define _SKILL_SHOOTLIGHTEN			10			// ·ÚÀÎÀå.          // ¼¤¹âµçÓ°
-#define _SKILL_LIGHTENING			11			// °­°Ý.            // À×µçÊõ
-#define _SKILL_ERGUM				12			// ¾î°Ë¼ú.          // ´ÌÉ±½£Êõ
-#define _SKILL_FIRECHARM			13			// Æø»ì°è.          // Áé»ê»ð·û
-#define _SKILL_HANGMAJINBUB			14			// Ç×¸¶Áø¹ý.        // ÓÄÁé¶Ü
-#define _SKILL_DEJIWONHO			15			// ´ëÁö¿øÈ£.        // ÉñÊ¥Õ½¼×Êõ
-#define _SKILL_HOLYSHIELD			16			// °á°è.            // À§Ä§Öä
-#define _SKILL_SKELLETON			17			// ¹é°ñ¼ÒÈ¯¼ú.      // ÕÙ»½÷¼÷Ã
-#define _SKILL_CLOAK				18			// Àº½Å.            // ÒþÉíÊõ
-#define _SKILL_BIGCLOAK				19			// ´ëÀº½Å.          // ¼¯ÌåÒþÉíÊõ
-#define _SKILL_TAMMING				20			// ·ÚÈ¥°Ý.          // ÓÕ»óÖ®¹â
-#define _SKILL_SPACEMOVE			21			// ¾Æ°øÇà¹ý.        // Ë²Ï¢ÒÆ¶¯
-#define _SKILL_EARTHFIRE			22			// Áö¿°¼ú.          // »ðÇ½
-#define _SKILL_FIREBOOM				23			// Æø¿­ÆÄ.          // ±¬ÁÑ»ðÑæ
-#define _SKILL_LIGHTFLOWER			24			// ·Ú¼³È­.          // µØÓüÀ×¹â
-#define _SKILL_BANWOL				25			// ¹Ý¿ù.            // °ëÔÂÍäµ¶
-#define _SKILL_FIRESWORD			26			// ¿°È­°á.          // ÁÒ»ð½£·¨
-#define _SKILL_MOOTEBO				27			// ¹«ÅÂº¸.          // Ò°Âù³å×²
-#define _SKILL_SHOWHP				28			// Å½±âÆÄ¿¬.        // ÐÄÁéÆôÊ¾
-#define _SKILL_BIGHEALLING			29			// ´ëÈ¸º¹.          // ÈºÌåÖÎÁÆÊõ
-#define _SKILL_SINSU				30			// ½Å¼ö¼ÒÈ¯.        // ÕÙ»½ÉñÊÞ
-#define _SKILL_SHIELD				31			// ÁÖ¼úÀÇ¸·.        // Ä§·¨¶Ü
-#define _SKILL_KILLUNDEAD			32			// »çÀÚÀ±È¸.        // Ê¥ÑÔÊõ
-#define _SKILL_SNOWWIND				33			// ºù¼³Ç³.          // ±ùÅØÏø
+#define _SKILL_FIREBALL				1			// æ‹³å ªåŽ˜.          // ç«çƒæœ¯
+#define _SKILL_HEALLING				2			// é›€æ±—è´±.          // æ²»æ„ˆæœ¯
+#define _SKILL_ONESWORD				3			// å¯‡è.            // åŸºæœ¬å‰‘æœ¯
+#define _SKILL_ILKWANG				4			// è€å ¡.            // ç²¾ç¥žåŠ›æˆ˜æ³•
+#define _SKILL_FIREBALL2			5			// é™›ç¢æ‹³å ªåŽ˜.      // å¤§ç«çƒ
+#define _SKILL_AMYOUNSUL			6			// éž æ¥·è´±.          // æ–½æ¯’æœ¯
+#define _SKILL_YEDO					7			// æŠ—æ¡£.            // æ”»æ€å‰‘æœ¯
+#define _SKILL_FIREWIND				8			// æ‹³å ªæµ….          // æŠ—æ‹’ç«çŽ¯
+#define _SKILL_FIRE					9			// å ªè¤åŽ˜.          // åœ°ç‹±ç«
+#define _SKILL_SHOOTLIGHTEN			10			// æ±¾ç‰¢åŽ˜.          // æ¿€å…‰ç”µå½±
+#define _SKILL_LIGHTENING			11			// ç¢æ‹œ.            // é›·ç”µæœ¯
+#define _SKILL_ERGUM				12			// ç»¢å…«è´±.          // åˆºæ€å‰‘æœ¯
+#define _SKILL_FIRECHARM			13			// æ°”æ··æ‹Œ.          // çµé­‚ç«ç¬¦
+#define _SKILL_HANGMAJINBUB			14			// äº²ä»˜æŸ³è¿‡.        // å¹½çµç›¾
+#define _SKILL_DEJIWONHO			15			// æŽªç˜¤ç›”é¾‹.        // ç¥žåœ£æˆ˜ç”²æœ¯
+#define _SKILL_HOLYSHIELD			16			// æ¬æ‹Œ.            // å›°é­”å’’
+#define _SKILL_SKELLETON			17			// å½’æ¦œå®¶åˆ¸è´±.      // å¬å”¤éª·é«…
+#define _SKILL_CLOAK				18			// ç¯®è„š.            // éšèº«æœ¯
+#define _SKILL_BIGCLOAK				19			// æŽªç¯®è„š.          // é›†ä½“éšèº«æœ¯
+#define _SKILL_TAMMING				20			// æ±¾åŽ»æ‹œ.          // è¯±æƒ‘ä¹‹å…‰
+#define _SKILL_SPACEMOVE			21			// é…’å‚é’è¿‡.        // çž¬æ¯ç§»åŠ¨
+#define _SKILL_EARTHFIRE			22			// ç˜¤å ªè´±.          // ç«å¢™
+#define _SKILL_FIREBOOM				23			// æ°”å‡¯é¢‡.          // çˆ†è£‚ç«ç„°
+#define _SKILL_LIGHTFLOWER			24			// æ±¾æ±²æ‹³.          // åœ°ç‹±é›·å…‰
+#define _SKILL_BANWOL				25			// é¦†å²¿.            // åŠæœˆå¼¯åˆ€
+#define _SKILL_FIRESWORD			26			// å ªæ‹³æ¬.          // çƒˆç«å‰‘æ³•
+#define _SKILL_MOOTEBO				27			// å…¬æ€•ç„Š.          // é‡Žè›®å†²æ’ž
+#define _SKILL_SHOWHP				28			// æ²¤æ‰é¢‡æ¥·.        // å¿ƒçµå¯ç¤º
+#define _SKILL_BIGHEALLING			29			// æŽªé›€æ±—.          // ç¾¤ä½“æ²»ç–—æœ¯
+#define _SKILL_SINSU				30			// è„šèå®¶åˆ¸.        // å¬å”¤ç¥žå…½
+#define _SKILL_SHIELD				31			// æž—è´±ç‹¼é˜œ.        // é­”æ³•ç›¾
+#define _SKILL_KILLUNDEAD			32			// è¤ç£Šè¾£é›€.        // åœ£è¨€æœ¯
+#define _SKILL_SNOWWIND				33			// è‘«æ±²æµ….          // å†°å’†å“®
 
-#define _SKILL_JUMPSHOT				33			// Á¡ÇÁÇØ¼­Ä¡±â °Ë±â.   // Ïè¿Õ½£·¨
-#define _SKILL_RANDSWING			34			// ¸¶±¸ ÈÖµÎ¸£±â.       // Á«ÔÂ½£·¨
-#define _SKILL_SPACEMOVE2			35			// ¾Æ°øÇà¹ý2.           // Ë²Ï¢ÒÆ¶¯2
-#define _SKILL_SPACEMOVE3			36			// ¾Æ°øÇà¹ý3.           // Ë²Ï¢ÒÆ¶¯3
+#define _SKILL_JUMPSHOT				33			// ç—¢æ©‡ç§¦è¾‘æ‘¹æ‰ å…«æ‰.   // ç¿”ç©ºå‰‘æ³•
+#define _SKILL_RANDSWING			34			// ä»˜å¤‡ æˆŽæ»´ç¦æ‰.       // èŽ²æœˆå‰‘æ³•
+#define _SKILL_SPACEMOVE2			35			// é…’å‚é’è¿‡2.           // çž¬æ¯ç§»åŠ¨2
+#define _SKILL_SPACEMOVE3			36			// é…’å‚é’è¿‡3.           // çž¬æ¯ç§»åŠ¨3
 
-#define _MONMAGIC_KEPAL				100			// Àü°Ý°ø°Ý.(°ø°ÝÇÑ Ä³¸¯ÅÍÀ§¿¡)(¸¶¹ý)
-#define _MONMAGIC_EXPLODE			101			// Æø¹ß¸¶¹ý.(µ¹°ñ·½Á×À»¶§, ·Ð°ø°Ý½Ã)
-#define _MONMAGIC_BLACK1			102			// Èæ¸¶¹ý»ç. (¸¶¹ý(½ÃÀü))
-#define _MONMAGIC_BLACK2			103			// Èæ¸¶¹ý»ç. (¸¶¹ý(¸¶¹ý))
-#define _MONMAGIC_DIE				104			// Èæ¸¶¹ý»ç, °æ°©¿Ê±â»ç, È«¸¶¹ý»ç, ½Å±â¼±º¸½ºº¯½ÅÀü Á×À½.(È¿°ú)
-#define _MONMAGIC_ANTHEAL			105			// Ä¡À¯°³¹ÌÈú¸µ(¹ß»ç¸¶¹ý, Æø¹ßÈ¿°ú.)
-#define _MONMAGIC_GREATANT			106			// °Å´ë°³¹Ì.(°ø°ÝÇÑ Ä³¸¯ÅÍÀ§¿¡)(¸¶¹ý)
-#define _MONMAGIC_MAGENUMA			108			// °á°è.
-#define _MONMAGIC_ANT				109			// º´Á¤°³¹Ì°ø°Ý.(°ø°ÝÇÑ Ä³¸¯ÅÍÀ§¿¡)(¸¶¹ý)
-#define _MONMAGIC_WORKANT			110			// ÀÏ°³¹Ì°ø°Ý.(°ø°ÝÇÑ Ä³¸¯ÅÍÀ§¿¡)(¸¶¹ý)
-#define _MONMAGIC_RED1				111			// È«¸¶¹ý»ç. (¸¶¹ý(½ÃÀü))
-#define _MONMAGIC_RED2				112			// È«¸¶¹ý»ç. (¸¶¹ý(¸¶¹ý))
-#define _MONMAGIC_COWGHOST			113			// ¿ì¸é±Í. (¸¶¹ý)
-#define _MONMAGIC_SINSU				114			// ½Å¼ö. (¸¶¹ý)
-#define _MONMAGIC_ZOMBIE			115			// Á»ºñ. (¸¶¹ý)
-#define _MONMAGIC_JUMAWANG			116			// ÁÖ¸¶¿Õ. (¸¶¹ý)
+#define _MONMAGIC_KEPAL				100			// å‚ˆæ‹œå‚æ‹œ.(å‚æ‹œèŒ„ æŸè…ç£å›°ä¿Š)(ä»˜è¿‡)
+#define _MONMAGIC_EXPLODE			101			// æ°”æƒ¯ä»˜è¿‡.(å€’æ¦œæ–¹ç£·é˜‘é”­, æ²¸å‚æ‹œçŸ«)
+#define _MONMAGIC_BLACK1			102			// å­ºä»˜è¿‡è¤. (ä»˜è¿‡(çŸ«å‚ˆ))
+#define _MONMAGIC_BLACK2			103			// å­ºä»˜è¿‡è¤. (ä»˜è¿‡(ä»˜è¿‡))
+#define _MONMAGIC_DIE				104			// å­ºä»˜è¿‡è¤, ç‰ˆç™Œæ¸´æ‰è¤, å…¨ä»˜è¿‡è¤, è„šæ‰æ€¥ç„Šèƒ¶å‡½è„šå‚ˆ ç£·æ¾œ.(ç“¤è‹ž)
+#define _MONMAGIC_ANTHEAL			105			// æ‘¹èœ¡ä¿ºå›ºé³ƒå‚…(æƒ¯è¤ä»˜è¿‡, æ°”æƒ¯ç“¤è‹ž.)
+#define _MONMAGIC_GREATANT			106			// èŠ­æŽªä¿ºå›º.(å‚æ‹œèŒ„ æŸè…ç£å›°ä¿Š)(ä»˜è¿‡)
+#define _MONMAGIC_MAGENUMA			108			// æ¬æ‹Œ.
+#define _MONMAGIC_ANT				109			// ææ²¥ä¿ºå›ºå‚æ‹œ.(å‚æ‹œèŒ„ æŸè…ç£å›°ä¿Š)(ä»˜è¿‡)
+#define _MONMAGIC_WORKANT			110			// è€ä¿ºå›ºå‚æ‹œ.(å‚æ‹œèŒ„ æŸè…ç£å›°ä¿Š)(ä»˜è¿‡)
+#define _MONMAGIC_RED1				111			// å…¨ä»˜è¿‡è¤. (ä»˜è¿‡(çŸ«å‚ˆ))
+#define _MONMAGIC_RED2				112			// å…¨ä»˜è¿‡è¤. (ä»˜è¿‡(ä»˜è¿‡))
+#define _MONMAGIC_COWGHOST			113			// å¿«æè“–. (ä»˜è¿‡)
+#define _MONMAGIC_SINSU				114			// è„šè. (ä»˜è¿‡)
+#define _MONMAGIC_ZOMBIE			115			// ç²±åŽš. (ä»˜è¿‡)
+#define _MONMAGIC_JUMAWANG			116			// æž—ä»˜ç©º. (ä»˜è¿‡)
 #define _MONMAGIC_CHIM				117
 #define _MONMAGIC_ARROW				118
 #define _MONMAGIC_MAARROW			119
@@ -628,8 +628,8 @@
 #define _MONMAGIC_NUMAGUMGI			130
 #define _MONMAGIC_EXPLODE1			131
 
-#define _BLEND_NORMAL				0			// ÀÏ¹ÝÀûÀÎ±×¸®±â.(¾ËÆÄ°ªÀÌ Àû¿ëµÉ¼öÀÖ´Ù.)
-#define _BLEND_LIGHT				1			// ¼¶±¤È¿°úÇüÅÂÀÇ ºí·»µù.
+#define _BLEND_NORMAL				0			// è€é¦†åˆ©ç‰¢å¼Šåºœæ‰.(èˆ…é¢‡è”¼æž åˆ©ä¾©çžªèä¹ä¿ƒ.)
+#define _BLEND_LIGHT				1			// çº§å ¡ç“¤è‹žå±ˆæ€•ç‹¼ å–‰åŠçˆ¹.
 #define _BLEND_LIGHTINV				2	
 #define _BLEND_INVNORMAL			3
 #define _BLEND_INVLIGHT				4
@@ -642,45 +642,45 @@
 	#1. Map Handler
 *******************************************************************************************************************/
 
-#define _BASETILE_WIDTH				96				// ±âº»Å¸ÀÏ ³ÐÀÌ.
+#define _BASETILE_WIDTH				96				// æ‰å¤¯é¸¥è€ æ‰¿æž.
 #define _BASETILE_HEIGHT			64
 	
-#define _CELL_WIDTH					48				// ±âº»¼¿ ³ÐÀÌ, ±âº»Å¸ÀÏÀº 4°³ÀÇ ¼¿·Î ÀÌ·ç¾îÁö°í Á¤º¸´Â ¼¿´ÜÀ§·Î ÀúÀåµÈ´Ù.
+#define _CELL_WIDTH					48				// æ‰å¤¯ä¼Ž æ‰¿æž, æ‰å¤¯é¸¥è€ç¯® 4ä¿ºç‹¼ ä¼Žè‚º æžé£Žç»¢ç˜¤ç»Š æ²¥ç„Šç»° ä¼Žçªœå›°è‚º åŽ†åŽ˜ç­‰ä¿ƒ.
 #define _CELL_HEIGHT				32
 
-#define _VIEW_CELL_X_COUNT			24				// ºä¿µ¿ª¿¡ ÇÊ¿äÇÑ XÃàÀÇ ¼¿´ÜÀ§ °³¼ö.((Â¥Åõ¸® Å¸ÀÏÁ¦¿Ü)ÁÂ¿ÍÀ§·Î 3¼¿, ¿ì¿Í¾Æ·¡·Î 2¼¿¾¿ÀÇ ¿©À¯¸¦ µÐ´Ù.)
+#define _VIEW_CELL_X_COUNT			24				// è½°åº·å¼€ä¿Š éž˜å¤¸èŒ„ Xç»µç‹¼ ä¼Žçªœå›° ä¿ºè.((æ¥¼æ§åºœ é¸¥è€åŠ›å¯‡)è°…å®¢å›°è‚º 3ä¼Ž, å¿«å®¢é…’è´°è‚º 2ä¼Žç©¶ç‹¼ å’¯èœ¡ç”« æ•Œä¿ƒ.)
 #define _VIEW_CELL_Y_COUNT			24			
 #define _VIEW_CELL_Y_COUNT_FOR_OBJ	44
 
-#define _VIEW_CELL_X_START			-200			// ºä¿µ¿ªÀ» ±×¸®±â À§ÇÑ ½ÃÀÛ ¼¿ XÁÂÇ¥.
+#define _VIEW_CELL_X_START			-200			// è½°åº·å¼€é˜‘ å¼Šåºœæ‰ å›°èŒ„ çŸ«ç´¯ ä¼Ž Xè°…é’Ž.
 #define _VIEW_CELL_Y_START			-157
 #define _MAX_TILE_FILE				14
 
-// Æ÷±×»ö °ü·Ã ¼Ó¼º.
+// å™¨å¼Šç¥¸ åŒ…è®¿ åŠ å·±.
 #define _FOG_COLOR_TYPE0			RGB(0, 0, 0);
 #define _FOG_COLOR_TYPE1			RGB(100, 10, 10);
 #define _FOG_COLOR_TYPE2			RGB(10, 255, 10);
 #define _FOG_COLOR_TYPE3			RGB(10, 10, 255);
 
-// ¼Ó¼º °ü·Ã Á¤ÀÇ.
+// åŠ å·± åŒ…è®¿ æ²¥ç‹¼.
 #define _CAN_WALK					0
 #define _CAN_NOTWALK	 			1
 #define _CAN_FLY					0
 #define _CAN_NOTFLY					1
 
-// ¶óÀÌÆ® Å©±â °ü·Ã Á¤ÀÇ.
+// æ‰¼æžé£˜ å†œæ‰ åŒ…è®¿ æ²¥ç‹¼.
 #define _LIGHT_SIZE_TYPE0			3
 #define _LIGHT_SIZE_TYPE1			4
 #define _LIGHT_SIZE_TYPE2			5
 #define _LIGHT_SIZE_TYPE3			6
 
-// ¶óÀÌÆ® »ö °ü·Ã Á¤ÀÇ.
+// æ‰¼æžé£˜ ç¥¸ åŒ…è®¿ æ²¥ç‹¼.
 #define _LIGHT_COLOR_TYPE0			RGB(255, 0, 0);
 #define _LIGHT_COLOR_TYPE1			RGB(0, 255, 0);
 #define _LIGHT_COLOR_TYPE2			RGB(0, 0, 255);
 #define _LIGHT_COLOR_TYPE3			RGB(255, 0, 255);
 
-// ¹®°ü·Ã Á¤ÀÇ.
+// å·©åŒ…è®¿ æ²¥ç‹¼.
 #define _DOOR_ISCLOSED				0
 #define _DOOR_ISOPEN				1
 
@@ -775,7 +775,7 @@
 #define CM_HIT						3014
 #define CM_LONGHIT					3019
 #define CM_POWERHIT					3018
-#define CM_SPELL					3017	// º¸³½ÈÄ ¼­¹ö¿¡¼­ ½ÂÀÎÀÌ ¿À¸é µ¿ÀÛÀ» ÇÑ´Ù. ½ºÆçµ¿ÀÛÀÌ ³¡³­ÈÄ sm_magicfire°¡ ¿À¸é µ¿ÀÛÀ» ½ºÅÄµå·Î ¹Ù²Û´Ù.
+#define CM_SPELL					3017	// ç„Šè¾°é¥¶ è¾‘æ»šä¿Šè¾‘ é“°ç‰¢æž å·æ æ‚¼ç´¯é˜‘ èŒ„ä¿ƒ. èƒ¶æ­§æ‚¼ç´¯æž åœºæŠ„é¥¶ sm_magicfireå•Š å·æ æ‚¼ç´¯é˜‘ èƒ¶æ‹é›è‚º å®˜æ§½ä¿ƒ.
 #define CM_WIDEHIT					3024
 #define CM_FIREHIT					3025
 #define CM_SAY						3030
@@ -787,50 +787,50 @@
 #define	CM_OPENDOOR					1002
 
 
-//¿ë±â
+//ä¾©æ‰
 ////////////////////////////////////////////////////////////////////////////////////////////////////////
-// °øÅë
-#define	CM_CLICKNPC					1010	// ÀÌ ¸Þ½ÃÁö¸¦ ¼­¹ö·Î º¸³»¾î ÇØ´ç MPCÀÇ Á¤º¸¸¦ ¹Þ´Â´Ù.
-#define	CM_MERCHANTDLGSELECT		1011	// »ç¿ëÀÚ°¡ NPC´ëÈ­Áß Tag°¡ Á¸ÀçÇÏ´Â ºÎºÐÀ» ClickÇßÀ»°æ¿ì º¸³»¾îÁø´Ù.
+// å‚çƒ¹
+#define	CM_CLICKNPC					1010	// æž çš‹çŸ«ç˜¤ç”« è¾‘æ»šè‚º ç„Šéƒ´ç»¢ ç§¦å¯¸ MPCç‹¼ æ²¥ç„Šç”« ç½ç»°ä¿ƒ.
+#define	CM_MERCHANTDLGSELECT		1011	// è¤ä¾©ç£Šå•Š NPCæŽªæ‹³å Tagå•Š ç²®çŠçªç»° ä½•ç›’é˜‘ Clickæ²é˜‘ç‰ˆå¿« ç„Šéƒ´ç»¢æŸ³ä¿ƒ.
 ////////////////////////////////////////////////////////////////////////////////////////////////////////
-// ÆÈ±â
-#define	CM_MERCHANTQUERYSELLPRICE	1012	// ÆÈ±â ¹°°ÇÀ» ¿Ã·Á ³õÀ» °æ¿ì °¡°ÝÀ» ¾ò´Â´Ù.  
-											// º¯°æÇÒ ÇÊ¿ä°¡ ÀÖÀ½ (°ú°Å: ÆÈ¹°°ÇÀÇ °¡°Ý¸¸ Ç¥½Ã, ÇöÀç: ÆÈ¸®´Â ¹°°ÇÀÇ °¢°Ü ¸ðµÎÇ¥½Ã)
-#define CM_USERSELLITEM				1013	// ÆÈ±â ¹öÆ°À» ´­·ÈÀ» °æ¿ì (°ú±â: ÆÈ¹°°Ç¸¸ ÇÏ³ª¸¸ º¸³¿, ÇöÀç: ÆÈ¹°°Ç ¸ðµÎ º¸³¿
+// è¿«æ‰
+#define	CM_MERCHANTQUERYSELLPRICE	1012	// è¿«æ‰ æ‹±æ‰’é˜‘ æ£µå¦¨ åˆé˜‘ ç‰ˆå¿« å•Šæ‹œé˜‘ æŽ˜ç»°ä¿ƒ.  
+											// å‡½ç‰ˆä¸” éž˜å¤¸å•Š ä¹æ¾œ (è‹žèŠ­: è¿«æ‹±æ‰’ç‹¼ å•Šæ‹œçˆ¶ é’ŽçŸ«, æ³…çŠ: è¿«åºœç»° æ‹±æ‰’ç‹¼ é˜¿è´¥ è‘›æ»´é’ŽçŸ«)
+#define CM_USERSELLITEM				1013	// è¿«æ‰ æ»šç“¢é˜‘ å–˜å•¡é˜‘ ç‰ˆå¿« (è‹žæ‰: è¿«æ‹±æ‰’çˆ¶ çªå”±çˆ¶ ç„Šæ™¨, æ³…çŠ: è¿«æ‹±æ‰’ è‘›æ»´ ç„Šæ™¨
 ////////////////////////////////////////////////////////////////////////////////////////////////////////
-// »ç±â
-#define CM_USERBUYITEM				1014	// »ç±â ¹öÆ°À» ´­·ÈÀ» °æ¿ì
-#define CM_USERGETDETAILITEM		1015	// »óÁ¡ ¸ñ·ÏÁß¿¡ Sub Menu°¡ ÀÖ´Â °ÍÀ» Å¬¸¯ÇßÀ» °æ¿ì
+// è¤æ‰
+#define CM_USERBUYITEM				1014	// è¤æ‰ æ»šç“¢é˜‘ å–˜å•¡é˜‘ ç‰ˆå¿«
+#define CM_USERGETDETAILITEM		1015	// æƒ‘ç—¢ æ ¼åºŸåä¿Š Sub Menuå•Š ä¹ç»° å·´é˜‘ åŠªè…æ²é˜‘ ç‰ˆå¿«
 ////////////////////////////////////////////////////////////////////////////////////////////////////////
-// ¼ö¸®
-#define	CM_USERREPAIRITEM			1023	// ¼ö¸®ÇÏ´Ù ¹öÆ°À» ´­·¶À» °æ¿ì
-#define	CM_MERCHANTQUERYREPAIRCOST	1024	// ¼ö¸®ÇÒ¾ÆÀÌÅÛÀ» ¿Ã·Á ³õÀ» °æ¿ì °¡°ÝÀ» ¾ò´Â´Ù.
+// èåºœ
+#define	CM_USERREPAIRITEM			1023	// èåºœçªä¿ƒ æ»šç“¢é˜‘ å–˜èŒƒé˜‘ ç‰ˆå¿«
+#define	CM_MERCHANTQUERYREPAIRCOST	1024	// èåºœä¸”é…’æžè¢é˜‘ æ£µå¦¨ åˆé˜‘ ç‰ˆå¿« å•Šæ‹œé˜‘ æŽ˜ç»°ä¿ƒ.
 ////////////////////////////////////////////////////////////////////////////////////////////////////////
-// ¾à¹æ
+// è·è§„
 #define CM_USERMAKEDRUGITEM			1034	// 
 
 ////////////////////////////////////////////////////////////////////////////////////////////////////////
-// ¿©°ü
-#define	CM_USERSTORAGEITEM			1031	// »ç¿ëÀÚ°¡ ¸º±ä´Ù ¹öÆ°(ÅØ½ºÆ® ¹öÆ° ¾Æ´Ô)À» ´­·¶À» °æ¿ì º¸³»¾îÁø´Ù.
-#define	CM_USERTAKEBACKSTORAGEITEM	1032	// »ç¿ëÀÚ°¡ Ã£´Â´Ù ¹öÆ°(ÅØ½ºÆ® ¹öÆ° ¾Æ´Ô)À» ´­·¶À» °æ¿ì º¸³»¾îÁø´Ù.
+// å’¯åŒ…
+#define	CM_USERSTORAGEITEM			1031	// è¤ä¾©ç£Šå•Š è´Ÿå˜ä¿ƒ æ»šç“¢(å’†èƒ¶é£˜ æ»šç“¢ é…’ä¸›)é˜‘ å–˜èŒƒé˜‘ ç‰ˆå¿« ç„Šéƒ´ç»¢æŸ³ä¿ƒ.
+#define	CM_USERTAKEBACKSTORAGEITEM	1032	// è¤ä¾©ç£Šå•Š èŒ«ç»°ä¿ƒ æ»šç“¢(å’†èƒ¶é£˜ æ»šç“¢ é…’ä¸›)é˜‘ å–˜èŒƒé˜‘ ç‰ˆå¿« ç„Šéƒ´ç»¢æŸ³ä¿ƒ.
 ////////////////////////////////////////////////////////////////////////////////////////////////////////
-// ¹®ÆÄ
-#define	CM_OPENGUILDDLG				1035	// »ç¿ëÀÚ°¡ ¹®ÆÄÃ¢À» ¿­°íÀÚ ÇßÀ» °æ¿ì º¸³»¾îÁø´Ù.
-#define CM_GUILDHOME				1036	// »ç¿ëÀÚ°¡ ¹®ÆÄÃ¢Áß HOME ¹öÆ°À» ´­·¶À» °æ¿ì º¸³»¾îÁø´Ù.
-#define	CM_GUILDMEMBERLIST			1037	// »ç¿ëÀÚ°¡ ¹®ÆÄÃ¢Áß ¹®¿øLIST¸¦ º¸°íÀÚ ÇÞÀ» °æ¿ì
-#define CM_GUILDADDMEMBER			1038	// »ç¿ëÀÚ°¡ ¹®¿øÃß°¡¸¦ ÇßÀ» °æ¿ì
-#define	CM_GUILDDELMEMBER			1039	// »ç¿ëÀÚ°¡ ¹®¿ø»èÁ¦¸¦ ÇßÀ» °æ¿ì
-#define	CM_GUILDUPDATENOTICE		1040	// »ç¿ëÀÚ°¡ ¹®ÆÄ°øÁö¸¦ ¼öÁ¤ ÇßÀ» °æ¿ì
-#define	CM_GUILDUPDATERANKINFO		1041	// »ç¿ëÀÚ°¡ ¹®¿øÁ÷À§¸¦ ¼öÁ¤ÇßÀ» °æ¿ì
-#define CM_GUILDMAKEALLY			1044	// »ç¿ëÀÚ°¡ ¹®ÆÄµ¿¸ÍÀ» ÇßÀ» °æ¿ì
-#define CM_GUILDBREAKALLY			1045	// »ç¿ëÀÚ°¡ ¹®ÆÄµ¿¸ÍÆÄ±â¸¦ ÇßÀ»°æ¿ì
+// å·©é¢‡
+#define	CM_OPENGUILDDLG				1035	// è¤ä¾©ç£Šå•Š å·©é¢‡èŠ’é˜‘ å‡¯ç»Šç£Š æ²é˜‘ ç‰ˆå¿« ç„Šéƒ´ç»¢æŸ³ä¿ƒ.
+#define CM_GUILDHOME				1036	// è¤ä¾©ç£Šå•Š å·©é¢‡èŠ’å HOME æ»šç“¢é˜‘ å–˜èŒƒé˜‘ ç‰ˆå¿« ç„Šéƒ´ç»¢æŸ³ä¿ƒ.
+#define	CM_GUILDMEMBERLIST			1037	// è¤ä¾©ç£Šå•Š å·©é¢‡èŠ’å å·©ç›”LISTç”« ç„Šç»Šç£Š å¯é˜‘ ç‰ˆå¿«
+#define CM_GUILDADDMEMBER			1038	// è¤ä¾©ç£Šå•Š å·©ç›”çœ å•Šç”« æ²é˜‘ ç‰ˆå¿«
+#define	CM_GUILDDELMEMBER			1039	// è¤ä¾©ç£Šå•Š å·©ç›”æ˜åŠ›ç”« æ²é˜‘ ç‰ˆå¿«
+#define	CM_GUILDUPDATENOTICE		1040	// è¤ä¾©ç£Šå•Š å·©é¢‡å‚ç˜¤ç”« èæ²¥ æ²é˜‘ ç‰ˆå¿«
+#define	CM_GUILDUPDATERANKINFO		1041	// è¤ä¾©ç£Šå•Š å·©ç›”æµå›°ç”« èæ²¥æ²é˜‘ ç‰ˆå¿«
+#define CM_GUILDMAKEALLY			1044	// è¤ä¾©ç£Šå•Š å·©é¢‡æ‚¼ç«¿é˜‘ æ²é˜‘ ç‰ˆå¿«
+#define CM_GUILDBREAKALLY			1045	// è¤ä¾©ç£Šå•Š å·©é¢‡æ‚¼ç«¿é¢‡æ‰ç”« æ²é˜‘ç‰ˆå¿«
 
 
 
 /******************************************************************************************************************
 	#1. Server To Client Message
 *******************************************************************************************************************/
-#define SM_RUSH						6		// ¹«ÅÂº¸ ¹Ð±â.
+#define SM_RUSH						6		// å…¬æ€•ç„Š å‰æ‰.
 #define SM_FIREHIT					8
 #define SM_POWERHIT					18
 #define SM_BACKSTEP					9
@@ -838,7 +838,7 @@
 #define SM_WALK						11
 #define SM_RUN						13
 #define SM_HIT						14
-#define SM_SPELL					17		// ½ºÆçÀ» ÇÑ´Ù.
+#define SM_SPELL					17		// èƒ¶æ­§é˜‘ èŒ„ä¿ƒ.
 #define SM_LONGHIT					19
 #define SM_DIGUP					20
 #define SM_DIGDOWN					21
@@ -887,7 +887,7 @@
 #define SM_CLEAROBJECT				633
 #define SM_EAT_OK					635
 #define SM_EAT_FAIL					636
-#define SM_MAGICFIRE				638		// ¸¶¹ýÀÌ ½ÇÇàµÈ´Ù.
+#define SM_MAGICFIRE				638		// ä»˜è¿‡æž è§’é’ç­‰ä¿ƒ.
 #define SM_MAGIC_LVEXP				640
 #define SM_DURACHANGE				642
 #define SM_GOLDCHANGE				653
@@ -914,7 +914,7 @@
 #define SM_MONSTERSAY				1501
 #define SM_SITDOWN					12
 #define SM_BUTCH					637
-#define SM_SKELETON					33		// SM_DEATH¿Í µ¿ÀÏ.
+#define SM_SKELETON					33		// SM_DEATHå®¢ æ‚¼è€.
 #define SM_CHANGEFACE				1104;
 
 #define SM_OPENDOOR_OK				612
