@@ -557,44 +557,44 @@
 #define _LIGHT_ACTIVE				1			// 付过堡盔劝己惑怕.
 #define _MAGIC_FINISH				2			// 付过家戈.
 
-#define _SKILL_FIREBALL				1			// 拳堪厘.
-#define _SKILL_HEALLING				2			// 雀汗贱.
-#define _SKILL_ONESWORD				3			// 寇荐.
-#define _SKILL_ILKWANG				4			// 老堡.
-#define _SKILL_FIREBALL2			5			// 陛碍拳堪厘.
-#define _SKILL_AMYOUNSUL			6			// 鞠楷贱.
-#define _SKILL_YEDO					7			// 抗档.
-#define _SKILL_FIREWIND				8			// 拳堪浅.
-#define _SKILL_FIRE					9			// 堪荤厘.
-#define _SKILL_SHOOTLIGHTEN			10			// 汾牢厘.
-#define _SKILL_LIGHTENING			11			// 碍拜.
-#define _SKILL_ERGUM				12			// 绢八贱.
-#define _SKILL_FIRECHARM			13			// 气混拌.
-#define _SKILL_HANGMAJINBUB			14			// 亲付柳过.
-#define _SKILL_DEJIWONHO			15			// 措瘤盔龋.
-#define _SKILL_HOLYSHIELD			16			// 搬拌.
-#define _SKILL_SKELLETON			17			// 归榜家券贱.
-#define _SKILL_CLOAK				18			// 篮脚.
-#define _SKILL_BIGCLOAK				19			// 措篮脚.
-#define _SKILL_TAMMING				20			// 汾去拜.
-#define _SKILL_SPACEMOVE			21			// 酒傍青过.
-#define _SKILL_EARTHFIRE			22			// 瘤堪贱.
-#define _SKILL_FIREBOOM				23			// 气凯颇.
-#define _SKILL_LIGHTFLOWER			24			// 汾汲拳.
-#define _SKILL_BANWOL				25			// 馆岿.
-#define _SKILL_FIRESWORD			26			// 堪拳搬.
-#define _SKILL_MOOTEBO				27			// 公怕焊.
-#define _SKILL_SHOWHP				28			// 沤扁颇楷.
-#define _SKILL_BIGHEALLING			29			// 措雀汗.
-#define _SKILL_SINSU				30			// 脚荐家券.
-#define _SKILL_SHIELD				31			// 林贱狼阜.
-#define _SKILL_KILLUNDEAD			32			// 荤磊辣雀.
-#define _SKILL_SNOWWIND				33			// 葫汲浅.
+#define _SKILL_FIREBALL				1			// 拳堪厘.          // 火球术
+#define _SKILL_HEALLING				2			// 雀汗贱.          // 治愈术
+#define _SKILL_ONESWORD				3			// 寇荐.            // 基本剑术
+#define _SKILL_ILKWANG				4			// 老堡.            // 精神力战法
+#define _SKILL_FIREBALL2			5			// 陛碍拳堪厘.      // 大火球
+#define _SKILL_AMYOUNSUL			6			// 鞠楷贱.          // 施毒术
+#define _SKILL_YEDO					7			// 抗档.            // 攻杀剑术
+#define _SKILL_FIREWIND				8			// 拳堪浅.          // 抗拒火环
+#define _SKILL_FIRE					9			// 堪荤厘.          // 地狱火
+#define _SKILL_SHOOTLIGHTEN			10			// 汾牢厘.          // 激光电影
+#define _SKILL_LIGHTENING			11			// 碍拜.            // 雷电术
+#define _SKILL_ERGUM				12			// 绢八贱.          // 刺杀剑术
+#define _SKILL_FIRECHARM			13			// 气混拌.          // 灵魂火符
+#define _SKILL_HANGMAJINBUB			14			// 亲付柳过.        // 幽灵盾
+#define _SKILL_DEJIWONHO			15			// 措瘤盔龋.        // 神圣战甲术
+#define _SKILL_HOLYSHIELD			16			// 搬拌.            // 困魔咒
+#define _SKILL_SKELLETON			17			// 归榜家券贱.      // 召唤骷髅
+#define _SKILL_CLOAK				18			// 篮脚.            // 隐身术
+#define _SKILL_BIGCLOAK				19			// 措篮脚.          // 集体隐身术
+#define _SKILL_TAMMING				20			// 汾去拜.          // 诱惑之光
+#define _SKILL_SPACEMOVE			21			// 酒傍青过.        // 瞬息移动
+#define _SKILL_EARTHFIRE			22			// 瘤堪贱.          // 火墙
+#define _SKILL_FIREBOOM				23			// 气凯颇.          // 爆裂火焰
+#define _SKILL_LIGHTFLOWER			24			// 汾汲拳.          // 地狱雷光
+#define _SKILL_BANWOL				25			// 馆岿.            // 半月弯刀
+#define _SKILL_FIRESWORD			26			// 堪拳搬.          // 烈火剑法
+#define _SKILL_MOOTEBO				27			// 公怕焊.          // 野蛮冲撞
+#define _SKILL_SHOWHP				28			// 沤扁颇楷.        // 心灵启示
+#define _SKILL_BIGHEALLING			29			// 措雀汗.          // 群体治疗术
+#define _SKILL_SINSU				30			// 脚荐家券.        // 召唤神兽
+#define _SKILL_SHIELD				31			// 林贱狼阜.        // 魔法盾
+#define _SKILL_KILLUNDEAD			32			// 荤磊辣雀.        // 圣言术
+#define _SKILL_SNOWWIND				33			// 葫汲浅.          // 冰咆哮
 
-#define _SKILL_JUMPSHOT				33			// 痢橇秦辑摹扁 八扁.
-#define _SKILL_RANDSWING			34			// 付备 戎滴福扁.
-#define _SKILL_SPACEMOVE2			35			// 酒傍青过2.
-#define _SKILL_SPACEMOVE3			36			// 酒傍青过3.
+#define _SKILL_JUMPSHOT				33			// 痢橇秦辑摹扁 八扁.   // 翔空剑法
+#define _SKILL_RANDSWING			34			// 付备 戎滴福扁.       // 莲月剑法
+#define _SKILL_SPACEMOVE2			35			// 酒傍青过2.           // 瞬息移动2
+#define _SKILL_SPACEMOVE3			36			// 酒傍青过3.           // 瞬息移动3
 
 #define _MONMAGIC_KEPAL				100			// 傈拜傍拜.(傍拜茄 某腐磐困俊)(付过)
 #define _MONMAGIC_EXPLODE			101			// 气惯付过.(倒榜方磷阑锭, 沸傍拜矫)
